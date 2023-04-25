@@ -1,0 +1,326 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 fw-bold" href="/index.html"
+            >JS SNEAKERS</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/special.html">Special</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--banner-->
+
+    <div class="container-fluid">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner">
+              <!--<div class="home-banner-text">
+                <h1 class="">Women Fashion</h1>
+                <h2 class="">50% Discount for this season</h2>
+                <a href="#" class="btn btn-danger fs-4">Our offers</a>
+              </div>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-2">
+              <!-- <div class="home-banner-text">
+                <h1 class="text-white">Men Fashion</h1>
+                <h2 class="text-white">50% Discount for this season</h2>
+                <a href="#" class="btn btn-danger fs-4 mt-2">Our offers</a>
+              </div>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-3">
+              <!-- <div class="home-banner-text">
+                <h1 class="text-white">Men Fashion</h1>
+                <h2 class="text-white">50% Discount for this season</h2>
+                <a href="#" class="btn btn-danger fs-4 mt-2">Our offers</a>
+              </div>-->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--nike header-->
+    <div class="container">
+      <div class="row gx-2">
+        <div class="col-12 d-flex">
+          <h1>Top Pics</h1>
+          <button
+            class="btn-lg btn-light fs-4 m-2 border fw-bold border-1 p-2 fw-lighter"
+            style="width: 200"
+          >
+            Shop Men
+          </button>
+          <button
+            class="btn-lg fs-4 m-2 border border-1 p-2 fw-lighter"
+            style="width: 200"
+          >
+            Women
+          </button>
+          <button
+            class="btn-lg fs-4 m-2 border border-1 p-2 fw-lighter"
+            style="width: 200"
+          >
+            Kids
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row gx-1">
+        <div class="col-lg-3 col-md-6">
+          <div class="nike_outfit_img">
+            <a href="/product.html">
+              <img
+                src="nike/img4.avif"
+                alt=""
+                height="500"
+                width="100%"
+                style="object-fit: cover"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="nike_outfit_img">
+            <img
+              src="nike/img2.avif"
+              alt=""
+              height="500"
+              width="100%"
+              style="object-fit: cover"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="nike_outfit_img">
+            <img
+              src="nike/img3.avif"
+              alt=""
+              height="500"
+              width="100%"
+              style="object-fit: cover"
+            />
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="nike_outfit_img">
+            <img
+              src="nike/img5.avif"
+              alt=""
+              height="500"
+              width="100%"
+              style="object-fit: cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sale section-->
+    <div class="container-fluid mt-3">
+      <h2 class="text-center">DO NOT MISS THE CHANCE</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="sale_offer">
+            <img
+              src="sale/img1.avif"
+              alt=""
+              height="500"
+              width="100%"
+              style="object-fit: cover"
+            />
+            <h4 class="fw-bolder fs-5">30 $</h4>
+            <p class="fw-lighter fs-5">Nike shorts</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="sale_offer">
+            <img
+              src="sale/img2.avif"
+              height="250"
+              width="100%"
+              style="object-fit: cover"
+            />
+          </div>
+          <div class="sale_offer mt-2">
+            <img
+              src="sale/img3.avif"
+              height="240"
+              width="100%"
+              style="object-fit: cover"
+            />
+            <h4 class="fw-bolder fs-5">70 $</h4>
+            <p class="fw-lighter fs-5">Adidas Yoga Outfits</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="sale_offer">
+            <img
+              src="sale/img4.avif"
+              alt=""
+              height="500"
+              width="100%"
+              style="object-fit: cover"
+            />
+            <h4 class="fw-bolder fs-5">50 $</h4>
+            <p class="fw-lighter fs-5">Nike Running Shoes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--nike banner-->
+    <div class="container-fluid mt-4">
+      <div class="row nike_shoe_cover">
+        <div class="col-12">
+          <img
+            src="nike/banner.webp"
+            alt="banner"
+            class="img-fluid nike_shoe_cover"
+            ;
+          />
+          <a href="#" class="nike_banner_cover">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid mt-4">
+      <div class="row border border">
+        <div class="col-3 mt-3">
+          <h5>Shopping with JD</h5>
+          <p>Delivery & Cost</p>
+          <p>Students section</p>
+          <p>Discount offers</p>
+          <p>Payment methods</p>
+        </div>
+
+        <div class="col-3 mt-3">
+          <h5>Customer Service</h5>
+          <p>FAQ,s</p>
+          <p>Returns</p>
+          <p>Account & NewsLetters</p>
+        </div>
+
+        <div class="col-3 mt-3">
+          <h5>Corporate</h5>
+          <p>Carriers</p>
+          <p>JD Fashions</p>
+          <p>Partners Program</p>
+        </div>
+
+        <div class="col-3 mt-3">
+          <h5>Legal</h5>
+          <p>Impressum</p>
+          <p>Cookies</p>
+          <p>Cookies Setting</p>
+        </div>
+      </div>
+      <p>copy right 2022 jd sneakers</p>
+      <a href="#top" class="text-center d-block m-auto fs-3 mt-0 top">Top</a>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
